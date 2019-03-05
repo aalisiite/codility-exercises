@@ -13,8 +13,8 @@ class Solution {
             return 0;
         }
 
-        int i = 0;
-        int j = 0;
+        int i;
+        int j;
         for (i = 0, j = newS.length() - 1; i < j; i++, j--) {
             char c = newS.charAt(i);
             char x = newS.charAt(j);
